@@ -1,3 +1,25 @@
+"""
+Max Guo
+November 21, 2011
+Sudoku solver
+"""
+
+"""
+TODO: - fix backtrack(), not recursive
+"""
+
+"""
+USAGE: - python sudoku_solver.py
+
+         input files are text files without any extensions
+             solutions are output into the same directory
+
+         look at sample puzzles to see format of input files
+             solutions to sample puzzles also included
+
+       - more puzzles can be found at www.websudoku.com
+"""
+
 import copy
 
 class sudoku_solver():
@@ -179,7 +201,6 @@ class sudoku_solver():
 		f.close()
 
 sudoku_solver("ac3solvable_example").output_solution()
-sudoku_solver("dp_puzzle").output_solution()
 sudoku_solver("gentle_sudoku").output_solution()
 sudoku_solver("moderate_sudoku").output_solution()
 sudoku_solver("diabolical_sudoku").output_solution()
