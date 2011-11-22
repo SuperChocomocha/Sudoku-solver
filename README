@@ -1,0 +1,15 @@
+Max Guo
+November 21, 2011
+Sudoku solver
+
+TODO: - fix backtrack(), not recursive
+
+USAGE: - python sudoku_solver.py
+
+         input files are text files without any extensions
+             solutions are output into the same directory
+
+         look at sample puzzles to see format of input files
+             solutions to sample puzzles also included
+
+       - more puzzles can be found at www.websudoku.com
